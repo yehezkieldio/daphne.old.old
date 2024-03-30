@@ -28,7 +28,9 @@
             "@/environment": ["./src/environment"],
             "@/utils/*": ["./src/utils/*"],
             "@/extensions/*": ["./src/libs/extensions/*"],
-            "@/typings/*": ["./src/libs/typings/*"]
+            "@/typings/*": ["./src/libs/typings/*"],
+            "@/database": ["./src/database/database"],
+            "@/schema/*": ["./src/database/schema/*"]
         }
     }
 }
