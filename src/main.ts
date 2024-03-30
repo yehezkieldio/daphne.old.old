@@ -1,7 +1,7 @@
 import { DaphneClient } from "@/extensions/client";
 import "@sapphire/plugin-logger/register";
 import { configuration } from "./configuration";
-import { env } from "@/env";
+import { env } from "@/environment";
 
 /**
  * The main entrypoint for the bot.

@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1711809511317,
+      "tag": "0000_lonely_ender_wiggin",
+      "breakpoints": true
+    }
+  ]
+}
