@@ -1,4 +1,4 @@
-import { ApplicationCommandRegistries, RegisterBehavior, SapphireClient, container, type SapphireClientOptions } from "@sapphire/framework";
+import { ApplicationCommandRegistries, RegisterBehavior, SapphireClient, type SapphireClientOptions, container } from "@sapphire/framework";
 import type { ClientOptions } from "discord.js";
 
 export interface DaphneClientOptions extends SapphireClientOptions, ClientOptions {

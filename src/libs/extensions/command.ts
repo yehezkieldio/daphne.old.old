@@ -1,5 +1,5 @@
-import { Subcommand, type SubcommandOptions } from "@sapphire/plugin-subcommands";
 import type { ChatInputCommand } from "@sapphire/framework";
+import { Subcommand, type SubcommandOptions } from "@sapphire/plugin-subcommands";
 
 export abstract class DaphneCommand extends Subcommand {
     protected constructor(context: Subcommand.LoaderContext, options: SubcommandOptions) {

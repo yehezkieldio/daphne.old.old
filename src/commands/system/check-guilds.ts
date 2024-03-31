@@ -3,13 +3,13 @@ import { DaphneCommand } from "@/extensions/command";
 import { serversTable } from "@/schema/server";
 import { DEVELOPMENT_SERVERS } from "@/utils/constants";
 import { RegisterBehavior } from "@sapphire/framework";
-import { type Guild, SlashCommandBuilder, bold } from "discord.js";
+import { SlashCommandBuilder } from "discord.js";
 import { eq } from "drizzle-orm";
 
 export class CheckGuildIntegritiesCommand extends DaphneCommand {
     public constructor(context: DaphneCommand.Context, options: DaphneCommand.Options) {
         super(context, {
-            name: "check-guild-integrities",
+            name: "check-guilds",
             description: "Perform a manual integrity check for all connected guilds the bot is in.",
             requiredClientPermissions: ["SendMessages"],
             preconditions: ["DeveloperOnly"],

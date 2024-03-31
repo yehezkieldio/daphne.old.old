@@ -1,5 +1,5 @@
-import { EmbedBuilder as BaseEmbedBuilder } from "discord.js";
 import { Colors } from "@/utils/colors";
+import { EmbedBuilder as BaseEmbedBuilder } from "discord.js";
 
 export class EmbedBuilder extends BaseEmbedBuilder {
     public constructor() {
