@@ -12,7 +12,7 @@ export class CheckGuildIntegrityCommand extends DaphneCommand {
             name: "check-guild",
             description: "Perform a manual integrity check on the current guild settings and other related data.",
             requiredClientPermissions: ["SendMessages"],
-            preconditions: ["DeveloperOnly"],
+            preconditions: ["GuildOnly", "DeveloperOnly"],
             ...options,
         });
     }
