@@ -3,6 +3,10 @@ import { isMessageInstance } from "@sapphire/discord.js-utilities";
 import { RegisterBehavior } from "@sapphire/framework";
 import { SlashCommandBuilder } from "discord.js";
 
+/**
+ * Ping command to check if the bot is alive.
+ * @version 1.0.0
+ */
 export class PingCommand extends DaphneCommand {
     public constructor(context: DaphneCommand.Context, options: DaphneCommand.Options) {
         super(context, {

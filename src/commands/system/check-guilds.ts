@@ -6,6 +6,10 @@ import { RegisterBehavior } from "@sapphire/framework";
 import { SlashCommandBuilder } from "discord.js";
 import { eq } from "drizzle-orm";
 
+/**
+ * Perform a manual integrity check for all connected guilds the bot is in.
+ * @version 1.0.0
+ */
 export class CheckGuildIntegritiesCommand extends DaphneCommand {
     public constructor(context: DaphneCommand.Context, options: DaphneCommand.Options) {
         super(context, {
